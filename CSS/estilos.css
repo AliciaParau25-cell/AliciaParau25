@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Contenedor centrado */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #24292f; /* color GitHub */
+    margin-bottom: 20px;
+}
+
+/* Texto */
+p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Enlaces */
+a {
+    display: block;
+    text-decoration: none;
+    background-color: #24292f;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #57606a;
+    transform: scale(1.03);
+}
